@@ -6,4 +6,6 @@ import os
 # printing the current directory
 print(os.getcwd())
 def np_function():
-    print(np.random.randint(10))
+    for i in range(10):
+        print(np.random.randint(10))
+
